@@ -23,4 +23,4 @@ class M(A, B, Z):
         super().__init__()
         
 if __name__ == "__main__":
-    M()
+    print(M.mro())

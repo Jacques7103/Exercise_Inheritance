@@ -40,9 +40,9 @@ class Cylinder(Circle):
         self.__height = height
         
     def __str__(self):
-        return f"Radius: {self._Circle__radius}\
-                \nColor: {self._Circle__color}\
-                \nHeight {self.__height}\
+        return f"Radius: {self.getRadius()}\
+                \nColor: {self.getColor()}\
+                \nHeight {self.getHeight()}\
                 \nVolume: {self.getVolume()}"
         
     def getVolume(self):
